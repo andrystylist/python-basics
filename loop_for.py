@@ -16,8 +16,6 @@ for number in range(10):
     else:
         print(str(number) + " is odd")
 
-[0, "Mango"], [1, "Pear"], [2, "Banana"], [3, "Apple"]
-
 print(list(enumerate(fruits)))
 
 for index, fruit in enumerate(fruits):
